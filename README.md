@@ -1,2 +1,4 @@
-Not sure what this was for but I'll use for something
-thinking of making it a repo for quantum machine learning.
+Hello good people, 
+I am a machine learning enthusiast and would like to break ground on quantum machine learning 
+so I will be posting information about my learnings and findings here.
+cheers!
