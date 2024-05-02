@@ -1,0 +1,25 @@
+Definition:
+A qubit, short for "quantum bit," is the basic unit of quantum information. Analogous to classical bits in classical computing, which can represent either 0 or 1, qubits can also represent these classical states. However, what sets qubits apart is their ability to exist in superposition, a fundamental principle of quantum mechanics.
+
+Superposition:
+In classical computing, a bit can be in one of two states: 0 or 1. In contrast, a qubit can exist in a linear combination of these states, meaning it can simultaneously be in a state of 0, a state of 1, or any combination of both. Mathematically, a qubit in superposition can be represented as:
+
+\[ |\psi\rangle = \alpha|0\rangle + \beta|1\rangle \]
+
+Where \( |\psi\rangle \) represents the qubit's state, \( \alpha \) and \( \beta \) are complex probability amplitudes (with \( |\alpha|^2 + |\beta|^2 = 1 \)), and \( |0\rangle \) and \( |1\rangle \) are the basis states representing classical 0 and 1, respectively.
+
+**Bloch Sphere Representation**:
+One way to visualize the state of a single qubit is using the Bloch sphere. The Bloch sphere is a geometric representation of the possible states of a qubit, where the north pole corresponds to the state \( |0\rangle \), the south pole corresponds to the state \( |1\rangle \), and points on the surface of the sphere represent different superposition states.
+
+Measurement:
+When a qubit is measured, it collapses from its superposition state into one of the basis states (0 or 1) with a probability determined by the square of the absolute values of the probability amplitudes (\( |\alpha|^2 \) and \( |\beta|^2 \)). The act of measurement effectively selects one of the possible outcomes, destroying the superposition.
+
+Entanglement:
+Another crucial property of qubits is entanglement, wherein the states of multiple qubits become correlated in such a way that the state of one qubit is dependent on the state of another, regardless of the distance between them. Entanglement is a powerful resource in quantum computing and quantum communication protocols.
+
+Physical Realization:
+Qubits can be realized using various physical systems, such as trapped ions, superconducting circuits, photons, and quantum dots. These systems harness the principles of quantum mechanics to manipulate and store quantum information.
+
+Quantum Gates:
+Quantum gates are operations applied to qubits to perform quantum computations. Examples include the Pauli-X gate (bit-flip), Hadamard gate (creates superposition), and CNOT gate (entangles qubits). These gates transform the state of qubits, allowing for the execution of quantum algorithms.
+
